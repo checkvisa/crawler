@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from pymongo import MongoClient
 
-db = MongoClient('mongodb://admin:admin@192.241.221.190/checkoo')
+db = MongoClient('mongodb://admin:admin@troup.mongohq.com:10015/checkvisa')
 database = db.checkoo
 Data_collection = database.Checkee
 Data_collection.drop()
