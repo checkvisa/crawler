@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from pymongo import MongoClient
 
 db = MongoClient('mongodb://admin:admin@troup.mongohq.com:10015/checkvisa')
-database = db.checkoo
+database = db.checkvisa
 Data_collection = database.Checkee
 Data_collection.drop()
 
